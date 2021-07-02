@@ -1,7 +1,7 @@
 import numpy as np
 
 def checkIfRightTriangle(num1, num2, num3):
-    a = np.sqrt(num1**2 + num2**2)  # a is the hypotenuse
+    a = np.sqrt(num1**2 + num2**2)  # a will be the hypotenuse
     if a == num3: return print('This triangle IS a right triangle!')
     else: return print('This triangle IS NOT a right triangle!')
 
