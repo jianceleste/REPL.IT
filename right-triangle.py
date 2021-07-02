@@ -9,9 +9,9 @@ def checkIfRightTriangle(num1, num2, num3):
 loop = True
 while loop:
     try:
-        hypotenuse = int(input('Value of the hypotenuse: '))
-        adjacent = int(input('Value of the adjacent: '))
-        opposite = int(input('Value of the opposite: '))
+        hypotenuse = float(input('Value of the hypotenuse: '))
+        adjacent = float(input('Value of the adjacent: '))
+        opposite = float(input('Value of the opposite: '))
 
         checkIfRightTriangle(adjacent, opposite, hypotenuse)
 
